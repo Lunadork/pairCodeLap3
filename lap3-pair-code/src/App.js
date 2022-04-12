@@ -1,23 +1,29 @@
 import logo from './logo.svg';
 import './App.css';
+import Header from './components/Header';
+import SearchForm from './components/SearchForm';
+import Repos from './components/Repos';
+import { useState} from 'react'
 
-function App() {
+
+function App() 
+{
+
+  const [repos,setRepos] = useState([])
+
+  const searchRepos = async (username) => 
+  {
+    console.log(`looking for repos for: ${username}`)
+  }
+
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      
+      <Header />
+      <SearchForm onSearch={searchRepos} />
+      {repos.length > 0 ? ( <Repos />) : 'No Repos found'}
+
     </div>
   );
 }
