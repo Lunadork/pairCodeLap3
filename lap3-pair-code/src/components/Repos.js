@@ -1,16 +1,16 @@
 import React from 'react'
 import Repo from './Repo'
 
-const Repos = (repos) => 
+const Repos = ({repos}) => 
 {
 
-  return 
-  (
+    console.log(`repos at repos comp : ${repos}`)
+
+  return (
     <>
-        {repos.map((repo) => 
-        (
-            <Repo key={repo.id} repo = {repo} />
-        ))}
+
+        {repos[0].map((repo) => (<Repo key={repo.id} repo = {repo}  />))}
+
     </>
   )
 

@@ -15,7 +15,7 @@ const SearchForm = ({onSearch}) => {
             return
         }
 
-        onSearch({username})
+        onSearch(username)
 
     }
 
@@ -28,7 +28,7 @@ const SearchForm = ({onSearch}) => {
             <input type = 'text' placeholder = 'Enter username' onChange = {(e) => setUsername(e.target.value)} />
         </div>
 
-        <input type = 'submit' className = 'btn btn-block' value = 'Search for repos' />
+        <input type = 'submit' value = 'Search for repos' />
 
     </form>
   )
