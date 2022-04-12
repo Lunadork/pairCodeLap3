@@ -28,23 +28,23 @@ function App()
       }
   }
 
-  useEffect(() => {
+  // useEffect(() => {
    
-    async function fetchData()
-    {
-      await searchRepos("Zeiadork")
-    }
+  //   async function fetchData()
+  //   {
+  //     await searchRepos("Zeiadork")
+  //   }
 
-    fetchData()
+  //   fetchData()
     
-    return () => { 
-    }
-  }, [])
+  //   return () => { 
+  //   }
+  // }, [])
 
-  useEffect(() => {
-    return () => {
-    }
-  }, [repos])
+  // useEffect(() => {
+  //   return () => {
+  //   }
+  // }, [repos])
   
 
   console.log(repos.length)

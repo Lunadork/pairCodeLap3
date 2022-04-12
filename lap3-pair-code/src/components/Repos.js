@@ -1,15 +1,12 @@
 import React from 'react'
 import Repo from './Repo'
 
-const Repos = ({repos}) => 
+const Repos = ({repos, onToggle}) => 
 {
-
-    console.log(`repos at repos comp : ${repos}`)
-
   return (
     <>
 
-        {repos[0].map((repo) => (<Repo key={repo.id} repo = {repo}  />))}
+        {repos[0].map((repo) => (<Repo key={repo.id} repo = {repo} onToggle ={onToggle}  />))}
 
     </>
   )
