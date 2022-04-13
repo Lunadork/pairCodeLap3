@@ -18,7 +18,9 @@ const Repo = ({repo, onToggle}) =>
             {repo.html_url}
           </a>
         <br/>
+        
         <p className = "description">{repo.description}</p>
+        <p className = "url"> Last Update: {repo.updated_at.split("T")[0]} </p>
         <p className = "doubleclickfordetails"> Double click this card for details </p>
 
         {detailsVisible && <RepoDetail repo = {repo} />}

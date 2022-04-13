@@ -17,7 +17,7 @@ const SearchForm = ({ onSearch }) => {
 
 
     return (
-        <div className='row py-5 '>
+        <div className='row py-3 '>
             <div className="card shadow">
                 <form onSubmit={submitForm}>
                     <div className='card-body px-5'>
