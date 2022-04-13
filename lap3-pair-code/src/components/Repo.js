@@ -7,6 +7,10 @@ const Repo = ({repo, onToggle}) =>
 
     const[detailsVisible, setDetailsVisible] = useState(false);
 
+    let date = repo.updated_at.split("T")[0];
+
+    let time = repo.updated_at.split("T")[1].slice(0,-4);
+
     // onClick={setDetailsVisible(!detailsVisible)}
   return (
     <div className='repoDiv  shadow-lg' onDoubleClick={ () => setDetailsVisible(!detailsVisible)}>
@@ -20,7 +24,7 @@ const Repo = ({repo, onToggle}) =>
         <br/>
         
         <p className = "description">{repo.description}</p>
-        <p className = "url"> Last Update: {repo.updated_at.split("T")[0]} </p>
+        <p className = "url">Last Update: {date}, {time}</p>
         <p className = "doubleclickfordetails"> Double click this card for details </p>
 
         {detailsVisible && <RepoDetail repo = {repo} />}

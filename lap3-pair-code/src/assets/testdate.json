@@ -1,0 +1,401 @@
+[
+  {
+    "sha": "f58984b111dd6f87c1f20edad3d08cf8eb89721e",
+    "node_id": "C_kwDOG3d-hNoAKGY1ODk4NGIxMTFkZDZmODdjMWYyMGVkYWQzZDA4Y2Y4ZWI4OTcyMWU",
+    "commit": {
+      "author": {
+        "name": "ImmanuelEgboche",
+        "email": "77640433+ImmanuelEgboche@users.noreply.github.com",
+        "date": "2022-02-18T11:39:26Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2022-02-18T11:39:26Z"
+      },
+      "message": "Merge pull request #8 from ImmanuelEgboche/main\n\nNew stuff",
+      "tree": {
+        "sha": "fc6612c5a5f78e0fe7dc4c8988d461c5798a945e",
+        "url": "https://api.github.com/repos/idrisimo/2012presidentialelectioninnewhampshire/git/trees/fc6612c5a5f78e0fe7dc4c8988d461c5798a945e"
+      },
+      "url": "https://api.github.com/repos/idrisimo/2012presidentialelectioninnewhampshire/git/commits/f58984b111dd6f87c1f20edad3d08cf8eb89721e",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJiD4VuCRBK7hj4Ov3rIwAAlRwIAJy4mUsjC/I70RJg/ePEJxrw\niObZ1ROLPcydh59VYalDS66c8P6ZKSqC9XPFKcXUuTpGLIIKNLPOS4b5grnlLrI9\nhyG6hM6EZooh6ZqRYAJxWwx7bRJS44ywErNtdPg8JH8EuzJtTsYTohVuJcowJa1P\ndpGvJOPGLGB3lIWk8Cy9hi0/gCiF4pAEvtiNnhNfyOAL0t1KTb/sFRU/7v4Q7cL0\nnVK5lDDuH+MD/kYkke0HSyMiVmkOLKSxH2SuSdbQ5GOjYDCbQ7G39p0LXJ873qXt\n/5MtxsPwPR+PCQKFpvcK8EzxJd8KlDKWOU5y1FDXR/qjSBrkMGD+HEy3EuGVxWQ=\n=V97b\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree fc6612c5a5f78e0fe7dc4c8988d461c5798a945e\nparent 595cf1d61e140a487ce3f7f5dae2ad622a64c98a\nparent de31b268c8765a0faf710b2dae657060001de0a4\nauthor ImmanuelEgboche <77640433+ImmanuelEgboche@users.noreply.github.com> 1645184366 +0000\ncommitter GitHub <noreply@github.com> 1645184366 +0000\n\nMerge pull request #8 from ImmanuelEgboche/main\n\nNew stuff"
+      }
+    },
+    "url": "https://api.github.com/repos/idrisimo/2012presidentialelectioninnewhampshire/commits/f58984b111dd6f87c1f20edad3d08cf8eb89721e",
+    "html_url": "https://github.com/idrisimo/2012presidentialelectioninnewhampshire/commit/f58984b111dd6f87c1f20edad3d08cf8eb89721e",
+    "comments_url": "https://api.github.com/repos/idrisimo/2012presidentialelectioninnewhampshire/commits/f58984b111dd6f87c1f20edad3d08cf8eb89721e/comments",
+    "author": {
+      "login": "ImmanuelEgboche",
+      "id": 77640433,
+      "node_id": "MDQ6VXNlcjc3NjQwNDMz",
+      "avatar_url": "https://avatars.githubusercontent.com/u/77640433?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ImmanuelEgboche",
+      "html_url": "https://github.com/ImmanuelEgboche",
+      "followers_url": "https://api.github.com/users/ImmanuelEgboche/followers",
+      "following_url": "https://api.github.com/users/ImmanuelEgboche/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ImmanuelEgboche/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ImmanuelEgboche/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ImmanuelEgboche/subscriptions",
+      "organizations_url": "https://api.github.com/users/ImmanuelEgboche/orgs",
+      "repos_url": "https://api.github.com/users/ImmanuelEgboche/repos",
+      "events_url": "https://api.github.com/users/ImmanuelEgboche/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ImmanuelEgboche/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "595cf1d61e140a487ce3f7f5dae2ad622a64c98a",
+        "url": "https://api.github.com/repos/idrisimo/2012presidentialelectioninnewhampshire/commits/595cf1d61e140a487ce3f7f5dae2ad622a64c98a",
+        "html_url": "https://github.com/idrisimo/2012presidentialelectioninnewhampshire/commit/595cf1d61e140a487ce3f7f5dae2ad622a64c98a"
+      },
+      {
+        "sha": "de31b268c8765a0faf710b2dae657060001de0a4",
+        "url": "https://api.github.com/repos/idrisimo/2012presidentialelectioninnewhampshire/commits/de31b268c8765a0faf710b2dae657060001de0a4",
+        "html_url": "https://github.com/idrisimo/2012presidentialelectioninnewhampshire/commit/de31b268c8765a0faf710b2dae657060001de0a4"
+      }
+    ]
+  },
+  {
+    "sha": "de31b268c8765a0faf710b2dae657060001de0a4",
+    "node_id": "C_kwDOG3d-hNoAKGRlMzFiMjY4Yzg3NjVhMGZhZjcxMGIyZGFlNjU3MDYwMDAxZGUwYTQ",
+    "commit": {
+      "author": {
+        "name": "ImmanuelEgboche",
+        "email": "77640433+ImmanuelEgboche@users.noreply.github.com",
+        "date": "2022-02-18T11:31:05Z"
+      },
+      "committer": {
+        "name": "ImmanuelEgboche",
+        "email": "77640433+ImmanuelEgboche@users.noreply.github.com",
+        "date": "2022-02-18T11:31:05Z"
+      },
+      "message": "New stuff",
+      "tree": {
+        "sha": "f3d02f20da5a7bac72285021c7b343435c639e7e",
+        "url": "https://api.github.com/repos/idrisimo/2012presidentialelectioninnewhampshire/git/trees/f3d02f20da5a7bac72285021c7b343435c639e7e"
+      },
+      "url": "https://api.github.com/repos/idrisimo/2012presidentialelectioninnewhampshire/git/commits/de31b268c8765a0faf710b2dae657060001de0a4",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/idrisimo/2012presidentialelectioninnewhampshire/commits/de31b268c8765a0faf710b2dae657060001de0a4",
+    "html_url": "https://github.com/idrisimo/2012presidentialelectioninnewhampshire/commit/de31b268c8765a0faf710b2dae657060001de0a4",
+    "comments_url": "https://api.github.com/repos/idrisimo/2012presidentialelectioninnewhampshire/commits/de31b268c8765a0faf710b2dae657060001de0a4/comments",
+    "author": {
+      "login": "ImmanuelEgboche",
+      "id": 77640433,
+      "node_id": "MDQ6VXNlcjc3NjQwNDMz",
+      "avatar_url": "https://avatars.githubusercontent.com/u/77640433?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ImmanuelEgboche",
+      "html_url": "https://github.com/ImmanuelEgboche",
+      "followers_url": "https://api.github.com/users/ImmanuelEgboche/followers",
+      "following_url": "https://api.github.com/users/ImmanuelEgboche/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ImmanuelEgboche/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ImmanuelEgboche/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ImmanuelEgboche/subscriptions",
+      "organizations_url": "https://api.github.com/users/ImmanuelEgboche/orgs",
+      "repos_url": "https://api.github.com/users/ImmanuelEgboche/repos",
+      "events_url": "https://api.github.com/users/ImmanuelEgboche/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ImmanuelEgboche/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "ImmanuelEgboche",
+      "id": 77640433,
+      "node_id": "MDQ6VXNlcjc3NjQwNDMz",
+      "avatar_url": "https://avatars.githubusercontent.com/u/77640433?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ImmanuelEgboche",
+      "html_url": "https://github.com/ImmanuelEgboche",
+      "followers_url": "https://api.github.com/users/ImmanuelEgboche/followers",
+      "following_url": "https://api.github.com/users/ImmanuelEgboche/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ImmanuelEgboche/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ImmanuelEgboche/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ImmanuelEgboche/subscriptions",
+      "organizations_url": "https://api.github.com/users/ImmanuelEgboche/orgs",
+      "repos_url": "https://api.github.com/users/ImmanuelEgboche/repos",
+      "events_url": "https://api.github.com/users/ImmanuelEgboche/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ImmanuelEgboche/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "d6174e9f396d7ec45bd41d39d14980e6c06334ca",
+        "url": "https://api.github.com/repos/idrisimo/2012presidentialelectioninnewhampshire/commits/d6174e9f396d7ec45bd41d39d14980e6c06334ca",
+        "html_url": "https://github.com/idrisimo/2012presidentialelectioninnewhampshire/commit/d6174e9f396d7ec45bd41d39d14980e6c06334ca"
+      }
+    ]
+  },
+  {
+    "sha": "595cf1d61e140a487ce3f7f5dae2ad622a64c98a",
+    "node_id": "C_kwDOG3d-hNoAKDU5NWNmMWQ2MWUxNDBhNDg3Y2UzZjdmNWRhZTJhZDYyMmE2NGM5OGE",
+    "commit": {
+      "author": {
+        "name": "Idris Silva",
+        "email": "60032298+idrisimo@users.noreply.github.com",
+        "date": "2022-02-18T11:19:16Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2022-02-18T11:19:16Z"
+      },
+      "message": "Merge pull request #7 from idrisimo/idris-branch\n\n#4 added fullstops",
+      "tree": {
+        "sha": "dbf8892fa769780cad42b9d27cdcc7ebdf33b6cf",
+        "url": "https://api.github.com/repos/idrisimo/2012presidentialelectioninnewhampshire/git/trees/dbf8892fa769780cad42b9d27cdcc7ebdf33b6cf"
+      },
+      "url": "https://api.github.com/repos/idrisimo/2012presidentialelectioninnewhampshire/git/commits/595cf1d61e140a487ce3f7f5dae2ad622a64c98a",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJiD4C0CRBK7hj4Ov3rIwAAh8MIAFr5DHDFO8ovYqQVpzwhxYTe\nBaOll0VC2sH7SOLUi+uCr4FMMBdMmr6Upbw31/uQp+tm52u7UwnZ6ZFMB4kS9mg9\nzjKRDLS+lp1hlEfSN+kqzaUREFaDvDiUh1XPKC/U1VBuFmlwr7N0n5lAXr/ZqqKe\nt+1nEvkwrG682PJtgSNQUH8H2b1iGrJETdtUb8njdMWPBm/AHs93HiLvI9sk50DS\nYoPogWtPLcUw/VwdUOr12wwtcBFrhLw5/59Gou+1HCIyo9s+FTGeXGudUBnAkHnM\nB3uli6dmHMT+yYvq+4UJzd+uT05Epp1uR95rLbJTIsu9lGYsR+uqJl/azs4546s=\n=OAto\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree dbf8892fa769780cad42b9d27cdcc7ebdf33b6cf\nparent d6174e9f396d7ec45bd41d39d14980e6c06334ca\nparent 67c7751a82222fd146ef7cb6cf6e53d7c683a63d\nauthor Idris Silva <60032298+idrisimo@users.noreply.github.com> 1645183156 +0000\ncommitter GitHub <noreply@github.com> 1645183156 +0000\n\nMerge pull request #7 from idrisimo/idris-branch\n\n#4 added fullstops"
+      }
+    },
+    "url": "https://api.github.com/repos/idrisimo/2012presidentialelectioninnewhampshire/commits/595cf1d61e140a487ce3f7f5dae2ad622a64c98a",
+    "html_url": "https://github.com/idrisimo/2012presidentialelectioninnewhampshire/commit/595cf1d61e140a487ce3f7f5dae2ad622a64c98a",
+    "comments_url": "https://api.github.com/repos/idrisimo/2012presidentialelectioninnewhampshire/commits/595cf1d61e140a487ce3f7f5dae2ad622a64c98a/comments",
+    "author": {
+      "login": "idrisimo",
+      "id": 60032298,
+      "node_id": "MDQ6VXNlcjYwMDMyMjk4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/60032298?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/idrisimo",
+      "html_url": "https://github.com/idrisimo",
+      "followers_url": "https://api.github.com/users/idrisimo/followers",
+      "following_url": "https://api.github.com/users/idrisimo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/idrisimo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/idrisimo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/idrisimo/subscriptions",
+      "organizations_url": "https://api.github.com/users/idrisimo/orgs",
+      "repos_url": "https://api.github.com/users/idrisimo/repos",
+      "events_url": "https://api.github.com/users/idrisimo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/idrisimo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "d6174e9f396d7ec45bd41d39d14980e6c06334ca",
+        "url": "https://api.github.com/repos/idrisimo/2012presidentialelectioninnewhampshire/commits/d6174e9f396d7ec45bd41d39d14980e6c06334ca",
+        "html_url": "https://github.com/idrisimo/2012presidentialelectioninnewhampshire/commit/d6174e9f396d7ec45bd41d39d14980e6c06334ca"
+      },
+      {
+        "sha": "67c7751a82222fd146ef7cb6cf6e53d7c683a63d",
+        "url": "https://api.github.com/repos/idrisimo/2012presidentialelectioninnewhampshire/commits/67c7751a82222fd146ef7cb6cf6e53d7c683a63d",
+        "html_url": "https://github.com/idrisimo/2012presidentialelectioninnewhampshire/commit/67c7751a82222fd146ef7cb6cf6e53d7c683a63d"
+      }
+    ]
+  },
+  {
+    "sha": "67c7751a82222fd146ef7cb6cf6e53d7c683a63d",
+    "node_id": "C_kwDOG3d-hNoAKDY3Yzc3NTFhODIyMjJmZDE0NmVmN2NiNmNmNmU1M2Q3YzY4M2E2M2Q",
+    "commit": {
+      "author": {
+        "name": "idrisimo",
+        "email": "idrissilva@hotmail.com",
+        "date": "2022-02-18T11:14:54Z"
+      },
+      "committer": {
+        "name": "idrisimo",
+        "email": "idrissilva@hotmail.com",
+        "date": "2022-02-18T11:14:54Z"
+      },
+      "message": "#4 added fullstops",
+      "tree": {
+        "sha": "dbf8892fa769780cad42b9d27cdcc7ebdf33b6cf",
+        "url": "https://api.github.com/repos/idrisimo/2012presidentialelectioninnewhampshire/git/trees/dbf8892fa769780cad42b9d27cdcc7ebdf33b6cf"
+      },
+      "url": "https://api.github.com/repos/idrisimo/2012presidentialelectioninnewhampshire/git/commits/67c7751a82222fd146ef7cb6cf6e53d7c683a63d",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/idrisimo/2012presidentialelectioninnewhampshire/commits/67c7751a82222fd146ef7cb6cf6e53d7c683a63d",
+    "html_url": "https://github.com/idrisimo/2012presidentialelectioninnewhampshire/commit/67c7751a82222fd146ef7cb6cf6e53d7c683a63d",
+    "comments_url": "https://api.github.com/repos/idrisimo/2012presidentialelectioninnewhampshire/commits/67c7751a82222fd146ef7cb6cf6e53d7c683a63d/comments",
+    "author": {
+      "login": "idrisimo",
+      "id": 60032298,
+      "node_id": "MDQ6VXNlcjYwMDMyMjk4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/60032298?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/idrisimo",
+      "html_url": "https://github.com/idrisimo",
+      "followers_url": "https://api.github.com/users/idrisimo/followers",
+      "following_url": "https://api.github.com/users/idrisimo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/idrisimo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/idrisimo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/idrisimo/subscriptions",
+      "organizations_url": "https://api.github.com/users/idrisimo/orgs",
+      "repos_url": "https://api.github.com/users/idrisimo/repos",
+      "events_url": "https://api.github.com/users/idrisimo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/idrisimo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "idrisimo",
+      "id": 60032298,
+      "node_id": "MDQ6VXNlcjYwMDMyMjk4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/60032298?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/idrisimo",
+      "html_url": "https://github.com/idrisimo",
+      "followers_url": "https://api.github.com/users/idrisimo/followers",
+      "following_url": "https://api.github.com/users/idrisimo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/idrisimo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/idrisimo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/idrisimo/subscriptions",
+      "organizations_url": "https://api.github.com/users/idrisimo/orgs",
+      "repos_url": "https://api.github.com/users/idrisimo/repos",
+      "events_url": "https://api.github.com/users/idrisimo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/idrisimo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "d6174e9f396d7ec45bd41d39d14980e6c06334ca",
+        "url": "https://api.github.com/repos/idrisimo/2012presidentialelectioninnewhampshire/commits/d6174e9f396d7ec45bd41d39d14980e6c06334ca",
+        "html_url": "https://github.com/idrisimo/2012presidentialelectioninnewhampshire/commit/d6174e9f396d7ec45bd41d39d14980e6c06334ca"
+      }
+    ]
+  },
+  {
+    "sha": "d6174e9f396d7ec45bd41d39d14980e6c06334ca",
+    "node_id": "C_kwDOG3d-hNoAKGQ2MTc0ZTlmMzk2ZDdlYzQ1YmQ0MWQzOWQxNDk4MGU2YzA2MzM0Y2E",
+    "commit": {
+      "author": {
+        "name": "nottnottloop",
+        "email": "6772127+nottnottloop@users.noreply.github.com",
+        "date": "2022-02-18T10:37:36Z"
+      },
+      "committer": {
+        "name": "nottnottloop",
+        "email": "6772127+nottnottloop@users.noreply.github.com",
+        "date": "2022-02-18T10:37:36Z"
+      },
+      "message": "initial commit",
+      "tree": {
+        "sha": "349a9a15368c0bf42e155889ed82ea4f2f38eea1",
+        "url": "https://api.github.com/repos/idrisimo/2012presidentialelectioninnewhampshire/git/trees/349a9a15368c0bf42e155889ed82ea4f2f38eea1"
+      },
+      "url": "https://api.github.com/repos/idrisimo/2012presidentialelectioninnewhampshire/git/commits/d6174e9f396d7ec45bd41d39d14980e6c06334ca",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/idrisimo/2012presidentialelectioninnewhampshire/commits/d6174e9f396d7ec45bd41d39d14980e6c06334ca",
+    "html_url": "https://github.com/idrisimo/2012presidentialelectioninnewhampshire/commit/d6174e9f396d7ec45bd41d39d14980e6c06334ca",
+    "comments_url": "https://api.github.com/repos/idrisimo/2012presidentialelectioninnewhampshire/commits/d6174e9f396d7ec45bd41d39d14980e6c06334ca/comments",
+    "author": {
+      "login": "nottnottloop",
+      "id": 6772127,
+      "node_id": "MDQ6VXNlcjY3NzIxMjc=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6772127?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/nottnottloop",
+      "html_url": "https://github.com/nottnottloop",
+      "followers_url": "https://api.github.com/users/nottnottloop/followers",
+      "following_url": "https://api.github.com/users/nottnottloop/following{/other_user}",
+      "gists_url": "https://api.github.com/users/nottnottloop/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/nottnottloop/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/nottnottloop/subscriptions",
+      "organizations_url": "https://api.github.com/users/nottnottloop/orgs",
+      "repos_url": "https://api.github.com/users/nottnottloop/repos",
+      "events_url": "https://api.github.com/users/nottnottloop/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/nottnottloop/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "nottnottloop",
+      "id": 6772127,
+      "node_id": "MDQ6VXNlcjY3NzIxMjc=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6772127?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/nottnottloop",
+      "html_url": "https://github.com/nottnottloop",
+      "followers_url": "https://api.github.com/users/nottnottloop/followers",
+      "following_url": "https://api.github.com/users/nottnottloop/following{/other_user}",
+      "gists_url": "https://api.github.com/users/nottnottloop/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/nottnottloop/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/nottnottloop/subscriptions",
+      "organizations_url": "https://api.github.com/users/nottnottloop/orgs",
+      "repos_url": "https://api.github.com/users/nottnottloop/repos",
+      "events_url": "https://api.github.com/users/nottnottloop/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/nottnottloop/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": []
+  }
+]
