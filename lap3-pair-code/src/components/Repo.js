@@ -13,7 +13,7 @@ const Repo = ({repo, onToggle}) =>
 
     // onClick={setDetailsVisible(!detailsVisible)}
   return (
-    <div className='repoDiv  shadow-lg' onDoubleClick={ () => setDetailsVisible(!detailsVisible)}>
+    <div className='repoDiv  shadow-lg' onClick={ () => setDetailsVisible(!detailsVisible)}>
         {/* // <div className='repoDiv' onDoubleClick={ isVisible}> */}
         <h3 className = "idandname">{repo.full_name} </h3>
         <span className = "visibility">{repo.visibility}</span>
@@ -25,7 +25,7 @@ const Repo = ({repo, onToggle}) =>
         
         <p className = "description">{repo.description}</p>
         <p className = "url">Last Update: {date}, {time}</p>
-        <p className = "doubleclickfordetails"> Double click this card for details </p>
+        <p className = "doubleclickfordetails"> Click for more/less details </p>
 
         {detailsVisible && <RepoDetail repo = {repo} />}
 

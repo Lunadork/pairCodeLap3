@@ -20,7 +20,7 @@ function App()
       {
         const url = `https://api.github.com/users/${username}/repos`
         const resp = await axios.get(url)
-        setRepos(resp.data)       
+        setRepos(resp.data)     
       } 
       catch (err) 
       {
@@ -54,7 +54,7 @@ function App()
 
       <SearchForm onSearch={searchRepos} />
 
-      {repos.length > 0 ? ( <Repos repos = {[repos]} />) : 'No Repos found.  Please search for a valid github username'}
+      {repos.length > 0 ? ( <Repos repos = {[repos]} />) : 'No Repos found.  Please search for a valid github username.'}
 
     </div>
   )

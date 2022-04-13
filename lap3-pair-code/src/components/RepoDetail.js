@@ -4,7 +4,7 @@ import forkIcon from '../assets/gitIcons/ic_fork.svg'
 import issuesIcon from '../assets/gitIcons/ic_issue.svg'
 import stargazerIcon from '../assets/gitIcons/iconmonstr-star-5.svg'
 import watcherIcon from '../assets/gitIcons/eye-svgrepo-com.svg'
-import { Sparklines, SparklinesLine } from 'react-sparklines'
+// import { Sparklines, SparklinesLine } from 'react-sparklines'
 import { CommitData } from './commitData'
 
 export const RepoDetail = ({ repo }) => {
@@ -19,6 +19,8 @@ export const RepoDetail = ({ repo }) => {
     {
         language = repo.language;
     }
+
+    let url = repo.commits_url.slice(0,-6);
     
     return (
         <>
@@ -31,11 +33,8 @@ export const RepoDetail = ({ repo }) => {
 
             </div>
             <div className='container px-5'>
-                <Sparklines data={[5, 10, 5, 20, 15]} style={{}} width={500} height={100} margin={10}>
-                    <SparklinesLine color="green" />
-                </Sparklines>
             </div>
-            <CommitData/>
+            <CommitData repoUrl={url}/>
 
         </>
     )

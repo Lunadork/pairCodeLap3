@@ -1,6 +1,5 @@
 import React from 'react'
 import { useState } from 'react'
-
 const SearchForm = ({ onSearch }) => {
 
     const [username, setUsername] = useState('');
@@ -28,6 +27,7 @@ const SearchForm = ({ onSearch }) => {
                 </form>
             </div>
         </div>
+
     )
 }
 
