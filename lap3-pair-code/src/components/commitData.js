@@ -12,12 +12,24 @@ export const CommitData = ({repoUrl}) => {
         }
     }
 
-    // const getDates = () => {
-    //     for (commit of testdata) {
-    //         console.log(commit)
-    //     }
-    // }
-    // getDates()
+    const getDates = () => {
+        const commitDates = []
+        let currentDate = ''
+        for (const commit of testdata) {
+            const date = new Date(commit['commit']['author']['date']).toLocaleDateString(
+                'en-gb', {
+                day: "numeric",
+                month: "numeric",
+                year: "numeric"
+            })
+            commitDates.push(date)
+            
+
+        }
+        console.log(commitDates)
+    }
+    getDates()
+    
 
 
 }
