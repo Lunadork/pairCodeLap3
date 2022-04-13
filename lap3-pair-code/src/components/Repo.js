@@ -1,13 +1,28 @@
 import React from 'react'
+import {useState} from 'react'
+import { RepoDetail } from './RepoDetail';
 
-const Repo = (repo) => 
+const Repo = ({repo, onToggle}) => 
 {
+
+    const[detailsVisible, setDetailsVisible] = useState(false);
+
+    // onClick={setDetailsVisible(!detailsVisible)}
   return (
-    <div className='repoDiv'>
-        <h3>id: {repo.id} name: {repo.name} </h3>
-        <p>forks: {repo.forks} </p>
-        <p>open issues: {repo.open_issues}</p>
-        
+    <div className='repoDiv  shadow-lg' onDoubleClick={ () => setDetailsVisible(!detailsVisible)}>
+        {/* // <div className='repoDiv' onDoubleClick={ isVisible}> */}
+        <h3 className = "idandname">{repo.full_name} </h3>
+        <span className = "visibility">{repo.visibility}</span>
+        <br/>
+          <a className="url" href={repo.html_url}>
+            {repo.html_url}
+          </a>
+        <br/>
+        <p className = "description">{repo.description}</p>
+        <p className = "doubleclickfordetails"> Double click this card for details </p>
+
+        {detailsVisible && <RepoDetail repo = {repo} />}
+
     </div>
   )
 }

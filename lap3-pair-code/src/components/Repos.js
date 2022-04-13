@@ -1,16 +1,14 @@
 import React from 'react'
 import Repo from './Repo'
 
-const Repos = (repos) => 
+const Repos = ({repos, onToggle}) => 
 {
-  console.log(Object.entries(repos))
   return (
-    <>
-        {repos.map((repo) => 
-        (
-            <Repo key={repo.id} repo = {repo} />
-        ))}
-    </>
+    <section className="">
+
+        {repos[0].map((repo) => (<Repo key={repo.id} repo = {repo} onToggle ={onToggle}  />))}
+
+    </section>
   )
 
 }

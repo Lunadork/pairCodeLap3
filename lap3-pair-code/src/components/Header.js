@@ -2,7 +2,7 @@ import React from 'react'
 
 const Header = ({onSearch}) => {
   return (
-    <div>Github repo stats fetcher</div>
+    <h1 className='pt-5 header'>Github repo stats fetcher</h1>
   )
 }
 

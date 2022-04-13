@@ -20,16 +20,7 @@ function App()
       {
         const url = `https://api.github.com/users/${username}/repos`
         const resp = await axios.get(url)
-        console.log("data:" +resp.data[0].id)
-       
-        setRepos(resp.data)
-
-        repos.forEach((repo) => 
-        {
-          console.log(repo.id);
-        })
-
-        
+        setRepos(resp.data)       
       } 
       catch (err) 
       {
@@ -37,23 +28,33 @@ function App()
       }
   }
 
-  useEffect(async () => {
+  // useEffect(() => {
    
-    // await searchRepos("Zeiadork")
-    return () => {
-      
-    }
-  }, [])
+  //   async function fetchData()
+  //   {
+  //     await searchRepos("Zeiadork")
+  //   }
+
+  //   fetchData()
+    
+  //   return () => { 
+  //   }
+  // }, [])
+
+  // useEffect(() => {
+  //   return () => {
+  //   }
+  // }, [repos])
   
 
-
+  console.log(repos.length)
   return (
     <div className='App'>
       <Header />
 
       <SearchForm onSearch={searchRepos} />
 
-      {repos > 0 ? ( <Repos repos = {repos} />) : 'No Repos found'}
+      {repos.length > 0 ? ( <Repos repos = {[repos]} />) : 'No Repos found.  Please search for a valid github username'}
 
     </div>
   )
