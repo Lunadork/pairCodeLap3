@@ -2,8 +2,7 @@ import React from 'react'
 
 const Repo = (repo) => 
 {
-  return 
-  (
+  return (
     <div className='repoDiv'>
         <h3>id: {repo.id} name: {repo.name} </h3>
         <p>forks: {repo.forks} </p>

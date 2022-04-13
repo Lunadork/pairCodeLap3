@@ -3,9 +3,8 @@ import Repo from './Repo'
 
 const Repos = (repos) => 
 {
-
-  return 
-  (
+  console.log(Object.entries(repos))
+  return (
     <>
         {repos.map((repo) => 
         (

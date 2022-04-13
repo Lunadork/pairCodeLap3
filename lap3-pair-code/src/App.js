@@ -1,9 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
 import Header from './components/Header';
 import SearchForm from './components/SearchForm';
 import Repos from './components/Repos';
-import { useState} from 'react'
+import { useState, useEffect} from 'react'
+import React from 'react'
+import axios from 'axios';
 
 
 function App() 
@@ -14,18 +15,49 @@ function App()
   const searchRepos = async (username) => 
   {
     console.log(`looking for repos for: ${username}`)
+
+      try
+      {
+        const url = `https://api.github.com/users/${username}/repos`
+        const resp = await axios.get(url)
+        console.log("data:" +resp.data[0].id)
+       
+        setRepos(resp.data)
+
+        repos.forEach((repo) => 
+        {
+          console.log(repo.id);
+        })
+
+        
+      } 
+      catch (err) 
+      {
+        console.log(err)
+      }
   }
+
+  useEffect(async () => {
+   
+    // await searchRepos("Zeiadork")
+    return () => {
+      
+    }
+  }, [])
+  
 
 
   return (
-    <div className="App">
-      
+    <div className='App'>
       <Header />
+
       <SearchForm onSearch={searchRepos} />
-      {repos.length > 0 ? ( <Repos />) : 'No Repos found'}
+
+      {repos > 0 ? ( <Repos repos = {repos} />) : 'No Repos found'}
 
     </div>
-  );
+  )
+
 }
 
 export default App;
